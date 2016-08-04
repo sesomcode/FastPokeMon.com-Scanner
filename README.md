@@ -7,4 +7,13 @@
  4. copy and paste **"FastPokeMonScanner.js"** content into the new "**Script snippet**" you just created.
  5. hit "**Run Script**" at the upper right of the **Developer Tools**.
  
+ 
 - use these 3 functions to control the script : 
+
+
+startRunner();
+
+stopRunner(); 
+
+resetRunner();
+    
