@@ -8,9 +8,3 @@
  5. hit "**Run Script**" at the upper right of the **Developer Tools**.
  
 - use these 3 functions to control the script : 
-
-
-startRunner();
- stopRunner(); 
- resetRunner();
-    
