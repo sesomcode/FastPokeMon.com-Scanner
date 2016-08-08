@@ -1,7 +1,7 @@
 # FastPokeMon.com-Scanner
 ***How To Use:***
 
- 1. download **FastPokeMonScanner.js **
+ 1. download **"FastPokeMonScanner.js"**
  2. go to *http://www.FastpokeMonScanner.com* and set the marker to a place you wish.
  3. press F12 and bring up the **Developer Tools** and go to "**Sources**" tab, get into "**Snippets**" and right click under it and press "**New**"
  4. copy and paste **"FastPokeMonScanner.js"** content into the new "**Script snippet**" you just created.
