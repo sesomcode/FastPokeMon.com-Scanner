@@ -109,6 +109,7 @@ function stopRunner() {
         window.clearInterval(scanSouthWest);
         window.clearInterval(scanEast);
         window.clearInterval(scanWest);
+        window.clearInterval(iIncreament);
 }
 
 function startRunner() {
