@@ -6,22 +6,25 @@
 //
 var RefreshRateInSeconds = 1; // update every [value] seconds
 var i = 0;
-var showInConsole = true;
+var showInConsole = true; //change as you wish
 var siteMarkerLat = window.marker._latlng.lat;
 var siteMarkerLng = window.marker._latlng.lng;
-var scanNorth   = setInterval(north(), RefreshRateInSeconds * 1000);
-var scanNorthEast   = setInterval(northEast(), RefreshRateInSeconds * 1000);
-var scanNorthWest   = setInterval(northWest(), RefreshRateInSeconds * 1000);
-var scanSouth   = setInterval(south(), RefreshRateInSeconds * 1000);
-var scanSouthEast   = setInterval(southEast(), RefreshRateInSeconds * 1000);
-var scanSouthWest   = setInterval(southWest(), RefreshRateInSeconds * 1000);
-var scanEast    = setInterval(east(), RefreshRateInSeconds * 1000);
-var scanWest    = setInterval(west(), RefreshRateInSeconds * 1000);
-var iIncreament   = setInterval(iIncreamentFunction(),RefreshRateInSeconds * 1000);
+var scanNorth   = setInterval(north, RefreshRateInSeconds * 1000);
+var scanNorthEast   = setInterval(northEast, RefreshRateInSeconds * 1000);
+var scanNorthWest   = setInterval(northWest, RefreshRateInSeconds * 1000);
+var scanSouth   = setInterval(south, RefreshRateInSeconds * 1000);
+var scanSouthEast   = setInterval(southEast, RefreshRateInSeconds * 1000);
+var scanSouthWest   = setInterval(southWest, RefreshRateInSeconds * 1000);
+var scanEast    = setInterval(east, RefreshRateInSeconds * 1000);
+var scanWest    = setInterval(west, RefreshRateInSeconds * 1000);
+var iIncreament   = setInterval(iIncreamentFunction,RefreshRateInSeconds * 1000);
 
 //Functions
 function iIncreamentFunction() {
          i+=0.0001;
+         if(showInConsole === true) {
+            console.log("increamenting + " + i);
+         }
 
 }
 function north() {
