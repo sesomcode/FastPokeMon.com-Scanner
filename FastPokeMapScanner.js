@@ -4,9 +4,9 @@
 //to stop "stopRunner();" to resume "startRunner();"
 //to reset and start again from a new point "resetRunner();" and then "starRunner();" again
 //
-var RefreshRateInSeconds = 1; // update every [value] seconds
+var RefreshRateInSeconds = 3; // update every [value] seconds
 var i = 0;
-var showInConsole = true; //change as you wish
+var showInConsole = true;
 var siteMarkerLat = window.marker._latlng.lat;
 var siteMarkerLng = window.marker._latlng.lng;
 var scanNorth   = setInterval(north, RefreshRateInSeconds * 1000);
